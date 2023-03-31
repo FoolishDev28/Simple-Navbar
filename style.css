@@ -1,0 +1,24 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	background-color: #1c2a44;
+}
+ul{
+	border: 0.5px solid black;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	box-shadow: 0px 4px 8px 0px skyblue;
+	background: black;
+	color: white;
+	width: 400px;
+}
+li{
+	margin: 6%;
+}
+li:hover{
+	color: red;
+}
